@@ -32,5 +32,5 @@ Structure:
 
 Outputs:
 
-db_password = <password of MySQL database>
-lb_dns_name = <url of website>
+    db_password = <password of MySQL database>
+    lb_dns_name = <url of website>
