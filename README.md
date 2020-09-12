@@ -29,3 +29,8 @@ Structure:
     ├── variables.tf
     └── versions.tf
 ```
+
+Outputs:
+
+db_password = <password of MySQL database>
+lb_dns_name = <url of website>
