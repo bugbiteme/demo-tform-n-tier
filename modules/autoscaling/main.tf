@@ -1,5 +1,5 @@
 module "iam_instance_profile" {
-  source  = "llevy/iip/aws"
+  source  = "scottwinkler/iip/aws"
   actions = ["logs:*", "rds:*"]
 }
  

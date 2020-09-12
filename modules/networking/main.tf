@@ -16,9 +16,9 @@ module "vpc" {
 }
  
  // security groups for load balancer, web server and database
- 
+
 module "lb_sg" {
-  source = "llevy/sg/aws"
+  source = "scottwinkler/sg/aws"
   vpc_id = module.vpc.vpc_id
   ingress_rules = [{
     port        = 80
@@ -27,7 +27,7 @@ module "lb_sg" {
 }
  
 module "websvr_sg" {
-  source = "llevy/sg/aws"
+  source = "scottwinkler/sg/aws"
   vpc_id = module.vpc.vpc_id
   ingress_rules = [
     {
@@ -42,7 +42,7 @@ module "websvr_sg" {
 }
  
 module "db_sg" {
-  source = "llevy/sg/aws"
+  source = "scottwinkler/sg/aws"
   vpc_id = module.vpc.vpc_id
   ingress_rules = [{
     port            = 3306
