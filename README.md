@@ -36,6 +36,5 @@ Outputs:
     lb_dns_name = <url of website>
 
 
-    Source code for web application:
-
-    https://github.com/scottwinkler/vanilla-webserver-src
+Source code for web application:
+     https://github.com/scottwinkler/vanilla-webserver-src
