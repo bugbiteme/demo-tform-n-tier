@@ -3,6 +3,8 @@
 based on https://livebook.manning.com/book/terraform-in-action/chapter-4/v-8/78
 
 Structure:
+
+```
     .
     ├── LICENSE
     ├── README.md
@@ -26,3 +28,4 @@ Structure:
     ├── terraform.tfvars
     ├── variables.tf
     └── versions.tf
+```
