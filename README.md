@@ -34,3 +34,8 @@ Outputs:
 
     db_password = <password of MySQL database>
     lb_dns_name = <url of website>
+
+
+    Source code for web application:
+
+    https://github.com/scottwinkler/vanilla-webserver-src
