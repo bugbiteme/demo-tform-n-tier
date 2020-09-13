@@ -36,7 +36,7 @@ resource "aws_launch_template" "webserver" {
 resource "aws_autoscaling_group" "webserver" {
   name                = "${var.namespace}-asg"
   min_size            = 1
-  max_size            = 3
+  max_size            = 4
   vpc_zone_identifier = var.vpc.private_subnets
   target_group_arns   = module.alb.target_group_arns
   launch_template {
