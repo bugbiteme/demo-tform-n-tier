@@ -1,2 +1,2 @@
 namespace = "demo-tform-n-tier"
-region = "us-east-2"
+region = "us-west-2"
